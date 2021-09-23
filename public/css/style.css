@@ -1,0 +1,51 @@
+body {
+    background: #5d4157; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5d4157, #a8caba); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5d4157, #a8caba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-carousel{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.container-carousel img{
+    height: 500px;
+}
+
+/* Tarjetas de News */
+.news-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  /*Otra forma podría ser 'repeat(4, 1fr)'. Es para las columnas*/
+    gap: 25;
+    margin: 10px 0;
+}
+
+.news-cards img{
+    width: 95%;
+    height: 200px;
+}
+
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.news-cards a{
+    padding: 10px 0;
+    color:rgb(30, 31, 31);
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.news-cards a:hover{
+    /* border-bottom: 2px solid white; */
+    text-decoration: underline;
+}
+
+.news-cards p{
+    width: 85%;
+}
